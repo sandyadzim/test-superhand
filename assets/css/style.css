@@ -1,0 +1,57 @@
+@font-face {
+  font-family: 'Poppins Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Poppins Regular'),
+    url(../fonts/Poppins-Regular.woff) format('woff');
+}
+@font-face {
+  font-family: 'Poppins Italic';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Poppins Italic'), url(../fonts/Poppins-Italic.woff) format('woff');
+}
+@font-face {
+  font-family: 'Poppins Medium';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Poppins Medium'), url(../fonts/Poppins-Medium.woff) format('woff');
+}
+@font-face {
+  font-family: 'Poppins Bold';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Poppins Bold'), url('../fonts/Poppins-Bold.woff') format('woff');
+}
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'><path stroke='rgba(255, 255, 255, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/></svg>") !important;
+}
+body {
+  font-family: 'Poppins Regular' !important;
+}
+/* Custom Pagination */
+.page-item.active .page-link {
+  z-index: 3;
+  color: #fff !important;
+  background-color: #f14436 !important;
+  border-color: #f14436 !important;
+}
+.page-link {
+  color: #000 !important;
+}
+.modal-backdrop {
+  opacity: 0.5 !important;
+}
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: #f14436 !important;
+}
+.page-enter-active,
+.page-leave-active {
+  transition: opacity 0.5s;
+}
+.page-enter,
+.page-leave-to {
+  opacity: 0;
+}
